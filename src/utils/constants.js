@@ -1,0 +1,1 @@
+export const BASE_URL = "https://tasks-b73f8-default-rtdb.firebaseio.com/"
