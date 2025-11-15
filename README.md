@@ -1,8 +1,31 @@
-# React + Vite
+# To-Do List App (API Integration)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A task-management web application built with React and Axios, using a mock REST API for full CRUD operations. A personal project showcasing front-end development skills and modern tech stack.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React.js (functional components, hooks)  
+- Axios for HTTP requests  
+- Redux Toolkit for centralized state management  
+- Material UI (MUI) for component styling and responsive layout  
+- Mocky.dev (mock REST API) for backend interaction  
+- Vite for fast development and optimized build  
+
+---
+
+## 🚀 Features
+- Fetches tasks from a mock API and displays them in a user-friendly UI  
+- Add, edit, delete, and mark tasks complete (full CRUD operations)  
+- Persist state with Redux Toolkit to ensure consistent data flow  
+- Responsive design implemented with Material UI to support mobile and desktop views  
+- Error handling and loading states for robust user experience  
+
+---
+
+## 📦 Installation
+```bash
+git clone https://github.com/itshadizhai/todo-api-react.git
+cd todo-api-react
+npm install
+npm run dev
